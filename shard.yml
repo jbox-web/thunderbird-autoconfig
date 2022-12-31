@@ -1,0 +1,35 @@
+name: thunderbird-autoconfig
+
+version: 0.1.0
+
+crystal: 1.6.0
+
+license: MIT
+
+authors:
+  - Nicolas Rodriguez <nico@nicoladmin.fr>
+
+targets:
+  thunderbird-autoconfig:
+    main: src/thunderbird-autoconfig.cr
+
+dependencies:
+  admiral:
+    github: jwaldrip/admiral.cr
+  crinja:
+    github: straight-shoota/crinja
+    branch: master
+  crystal-env:
+    github: crystal-lang/crystal-env
+    branch: master
+  kemal:
+    github: kemalcr/kemal
+    branch: master
+  systemd_notify:
+    github: serge-name/systemd_notify.cr
+    branch: master
+
+development_dependencies:
+  ameba:
+    github: crystal-ameba/ameba
+    version: ~> 1.0.0

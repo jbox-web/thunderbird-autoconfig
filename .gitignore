@@ -1,0 +1,12 @@
+# Ignore generated data
+/docs/
+/lib/
+/.shards/
+*.dwarf
+
+# Ignore all bin files
+/bin/*
+!/bin/.keep
+
+# Ignore sample config
+thunderbird-autoconfig.yml
