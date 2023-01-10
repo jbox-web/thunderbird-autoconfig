@@ -2,7 +2,7 @@ name: thunderbird-autoconfig
 
 version: 0.1.0
 
-crystal: 1.6.0
+crystal: 1.7.0
 
 license: MIT
 
