@@ -2,7 +2,7 @@ name: thunderbird-autoconfig
 
 version: 0.1.0
 
-crystal: 1.7.0
+crystal: 1.9.2
 
 license: MIT
 
@@ -32,4 +32,4 @@ dependencies:
 development_dependencies:
   ameba:
     github: crystal-ameba/ameba
-    version: ~> 1.0.0
+    branch: master
