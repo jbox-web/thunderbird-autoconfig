@@ -50,7 +50,6 @@ build: ## Compile to development binary
 
 deps: ## Install development dependencies
 	shards install
-	./bin/gi-crystal
 
 clean: ## Cleanup environment
 	rm -rf bin/*
